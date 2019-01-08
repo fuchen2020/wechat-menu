@@ -71,4 +71,9 @@ class Content
     {
         return static::wrapHtml('<other-events-setting/>');
     }
+
+    public static function renderWechatMenu()
+    {
+        return static::wrapHtml('<wechat-menu/>');
+    }
 }
